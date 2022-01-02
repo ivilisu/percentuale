@@ -1,0 +1,6 @@
+print ("Inserisci il prezzo:") 
+prezzo = int(input())
+print ("Inserisci la percentuale")
+percentuale1 = int(input())
+print ("Il " + str(percentuale1) + "% di " + str(prezzo) + " è:")
+print ((prezzo*percentuale1)/100)
